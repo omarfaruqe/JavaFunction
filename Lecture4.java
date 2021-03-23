@@ -97,4 +97,14 @@ public class Lecture4{
 	// int returnedLikes = likePhotoWithReturnValue(0, "Nice Color", false); 
 	// int totalLikes = likePhotoWithReturnValue(returnedLikes, "Nice Color", true);  
 
+	public String admission( double height){
+		String passText;
+		// checks height reqs
+		if(height > 120){
+			passText = "You pass the height requirements.";
+		}else{
+			passText = "Sorry, you do not pass.";
+		}
+		return passText;
+	}
 }
