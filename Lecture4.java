@@ -29,10 +29,11 @@ public class Lecture4{
 		}
 	}
 
-	public void greeting(){
+	public void greeting(String location){
 		// Greet a specific location
-		System.out.println("Hello, Rajshahi");
+		System.out.println("Hello, " + location);
 	}
+	// Test call would be greeting("Rajshahi");
 }
 
 
