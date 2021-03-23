@@ -34,6 +34,20 @@ public class Lecture4{
 		System.out.println("Hello, " + location);
 	}
 	// Test call would be greeting("Rajshahi");
+
+	public void weatherInterpreter(int temperature){
+		if(temperature > 30){
+			System.out.println("It's hot outside!");
+		} else if(temperature < 5){
+			System.out.println("Brr, consider wearing a jacket.");
+		} else{
+			System.out.println("Not too hot, not too cold.");
+		}
+	}
+	//Test Calling
+	// weatherInterpreter(4); ->
+	// weatherInterpreter(28); ->
+
 }
 
 
