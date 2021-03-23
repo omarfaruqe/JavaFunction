@@ -104,4 +104,16 @@ public class Lecture4{
 	// Test call
 	//int rollOne = rollDice();
 	// int rollTwo = rollDice();
+
+
+	public int rollDiceWithSides(int sides){
+		double randomNumber = Math.random();
+		randomNumber = randomNumber * sides;
+		randomNumber = randomNumber + 1;
+		int randomInt = (int) randomNumber;
+		return randomInt;
+	}
+	// Test call
+	//int rollOne = rollDiceWithSides();
+	// int rollTwo = rollDiceWithSides();
 }
