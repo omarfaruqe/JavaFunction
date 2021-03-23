@@ -81,6 +81,12 @@ public class Lecture4{
 	// printPhoto(30, 40, true);
 	// printPhoto(30, true, 40); // order is important.
 
+	/**
+	 * This method will simulate like and comments of a photo posted somewhere
+	 * @param currentLikes The number of likes currently have
+	 * @param comment Feedback comment, its a string value
+	 * @param like boolean like means true and dislike means false
+	 */
 	public void likePhoto(int currentLikes, String comment, boolean like){
 		// prints out comment and who is commenting
 		System.out.println("Feedback: " + comment);
