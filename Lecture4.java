@@ -29,6 +29,10 @@ public class Lecture4{
 		}
 	}
 
+	public void greeting(){
+		// Greet a specific location
+		System.out.println("Hello, Rajshahi");
+	}
 }
 
 
