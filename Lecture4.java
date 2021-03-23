@@ -107,4 +107,13 @@ public class Lecture4{
 		}
 		return passText;
 	}
+
+	public double makeChange(double itemCost, double dollarsProvided){
+		// calculate change
+		// change is dollars - item cost
+		double change = dollarsProvided - itemCost;
+		return change;
+	}
+	// Test call
+	// double changeValue = makeChange(4.5, 10);
 }
