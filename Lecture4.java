@@ -39,6 +39,11 @@ public class Lecture4{
 		}
 	}
 
+	/**
+	 * This function will just print Hello and then the location given to it.
+	 * @param location greeting location
+	 * @return this function will return nothing
+	 */
 	public void greeting(String location){
 		// Greet a specific location
 		System.out.println("Hello, " + location);
