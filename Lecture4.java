@@ -1,8 +1,18 @@
 public class Lecture4{
 	public static void main(String[] args) {
-		System.out.println("Print this");
-		System.out.println("And this");
-		System.out.println("Again this");				
+		// System.out.println("Print this");
+		// System.out.println("And this");
+		// System.out.println("Again this");	
+		
+		// random number between 0 and (almost) 1
+		double randomNumber = Math.random();
+
+		// change range from 0 to (almost) 10
+		randomNumber = randomNumber * 10; 
+
+		// cast to integer (ignore decimal part) i.e. 9.985 becomes 9
+		int randomInt = (int) randomNumber;
+		System.out.println("Random number between 0 and 10: " + randomInt);
 	}
 
 	public void chorus(){
@@ -55,8 +65,8 @@ public class Lecture4{
 			System.out.println("Sorry, you do not pass.");
 		}
 	}
-	// Test Call
-	// admission(130.5);
+	Test Call
+	admission(130.5);
 
 	public void printPhoto(int width, int height, boolean inColor){
 		System.out.println("Width = " + width + " cm");
@@ -82,4 +92,16 @@ public class Lecture4{
 	}
 	//Test call 
 	// likePhoto(    ); // question 
+
+
+	public int rollDice(){
+		double randomNumber = Math.random();
+		randomNumber = randomNumber * 6;
+		randomNumber = randomNumber + 1;
+		int randomInt = (int) randomNumber;
+		return randomInt;
+	}
+	// Test call
+	//int rollOne = rollDice();
+	// int rollTwo = rollDice();
 }
