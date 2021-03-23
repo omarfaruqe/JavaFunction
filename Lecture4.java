@@ -48,6 +48,15 @@ public class Lecture4{
 	// weatherInterpreter(4); ->
 	// weatherInterpreter(28); ->
 
+	public void admission(/* What will be the parameter here */){
+		if(height > 120){
+			System.out.println("You pass the height requirements.");
+		} else{
+			System.out.println("Sorry, you do not pass.");
+		}
+	}
+	// Test Call
+	// admission(130.5);
 }
 
 
