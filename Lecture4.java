@@ -57,51 +57,17 @@ public class Lecture4{
 	}
 	// Test Call
 	// admission(130.5);
+
+	public void printPhoto(int width, int height, boolean inColor){
+		System.out.println("Width = " + width + " cm");
+		System.out.println("Height = " + height + " cm");
+		if(inColor){
+			System.out.println("Print is full color.");
+		} else{
+			System.out.println("Print is black and white.");
+		}
+	}
+	// Test call
+	// printPhoto(30, 40, true);
+	// printPhoto(30, true, 40); // order is important.
 }
-
-
-
-/*
-Lyrics: Blondie Once
-Songwriters: Christopher Stein / Deborah Harry
-The Disco Song lyrics © BMG Rights Management
-Artist: Blondie
-Album: Plastic Letters
-Released: 1977
-Genre: New Wave/Post-Punk
-
-Once I had a love and it was a gas
-Soon turned out to be a thing of the past
-Seemed like the real thing, only to find much o' mistrust
-Love's gone behind
-
-Once I had a love and it was divine
-Soon found out I was losing my mind
-It seemed like the real thing but I was so blind
-Much o' mistrust
-
-Love's gone behind
-In between what I find is pleasing and
-I'm feeling fine Love is so confusing,
-there's no peace of mind
-
-If I fear I'm losing you
-It's just no good, you teasing like you do
-Once I had a love and it was a gas
-Soon turned out to be a thing of the past
-
-Seemed like the real thing,
-Only to find much o' mistrust
-Love's gone behind
-Lost inside
-
-Adorable illusion and I cannot hide
-I'm the one you're using please don't push me aside
-We coulda made it cruising yeah
-Yeah, riding high on love's true bluish light
-
-Once I had a love and it was a gas
-Soon turned out to be a pain in the ass
-Seemed like the real thing only to find much o' mistrust
-Love's gone behind
-*/
