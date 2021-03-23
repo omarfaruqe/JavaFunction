@@ -11,7 +11,24 @@ public class Lecture4{
 		System.out.println("Soon turned out had a heart of glass");
 		System.out.println("Seemed like the real thing, only to find much o' mistrust");
 		System.out.println("Love's gone behind");	
+
+		//Function Calling
+		playMusic();
 	}
+
+	boolean playButton = true; // true or false
+	// Define a function playMusic() below.
+	// This should print out: "Music is playing" when playButton is true
+	// and "Music is paused" when playButton is false.
+
+	public void playMusic(){
+		if(playButton){
+			System.out.println("Music is playing");
+		}else{
+			System.out.println("Music is paused");
+		}
+	}
+
 }
 
 
