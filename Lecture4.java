@@ -106,6 +106,13 @@ public class Lecture4{
 	// int rollTwo = rollDice();
 
 
+	/**
+	 * This dice function simulates a random dice roll
+	 * for a dice with a give number of sides
+	 * 
+	 * @param sides the number of sides of a dice
+	 * @return random roll value (an integer)
+	 */
 	public int rollDiceWithSides(int sides){
 		double randomNumber = Math.random();
 		randomNumber = randomNumber * sides;
@@ -116,4 +123,7 @@ public class Lecture4{
 	// Test call
 	//int rollOne = rollDiceWithSides();
 	// int rollTwo = rollDiceWithSides();
+
+
+
 }
