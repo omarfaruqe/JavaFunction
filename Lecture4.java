@@ -82,4 +82,19 @@ public class Lecture4{
 	}
 	//Test call 
 	// likePhoto(    ); // question 
+
+	public int likePhotoWithReturnValue(int currentLikes, String comment, boolean like){
+		// prints out comment and who is commenting
+		System.out.println("Feedback: " + comment);
+		if(like){
+			// increase number of likes by 1
+			currentLikes = currentLikes + 1;
+		}
+		System.out.println("Number of likes: " + currentLikes);
+		return currentLikes;
+	}
+	//Test call 
+	// int returnedLikes = likePhotoWithReturnValue(0, "Nice Color", false); 
+	// int totalLikes = likePhotoWithReturnValue(returnedLikes, "Nice Color", true);  
+
 }
