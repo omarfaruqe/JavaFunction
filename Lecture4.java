@@ -65,8 +65,8 @@ public class Lecture4{
 			System.out.println("Sorry, you do not pass.");
 		}
 	}
-	Test Call
-	admission(130.5);
+	//Test Call
+	//admission(130.5);
 
 	public void printPhoto(int width, int height, boolean inColor){
 		System.out.println("Width = " + width + " cm");
