@@ -70,4 +70,16 @@ public class Lecture4{
 	// Test call
 	// printPhoto(30, 40, true);
 	// printPhoto(30, true, 40); // order is important.
+
+	public void likePhoto(int currentLikes, String comment, boolean like){
+		// prints out comment and who is commenting
+		System.out.println("Feedback: " + comment);
+		if(like){
+			// increase number of likes by 1
+			currentLikes = currentLikes + 1;
+		}
+		System.out.println("Number of likes: " + currentLikes);
+	}
+	//Test call 
+	// likePhoto(    ); // question 
 }
