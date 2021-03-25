@@ -118,6 +118,7 @@ public class Lecture4{
 		int randomInt = (int) randomNumber;
 		return randomInt;
 	}
+	// something changed
 	// Test call
 	//int rollOne = rollDiceWithSides();
 	// int rollTwo = rollDiceWithSides();
